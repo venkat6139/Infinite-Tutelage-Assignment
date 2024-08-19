@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-bar svg {
+  color: gray;
+  font-size: 18px;
+}
